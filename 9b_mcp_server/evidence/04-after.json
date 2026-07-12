@@ -1,0 +1,7 @@
+{
+  "attack": "04_token_passthrough",
+  "exploited": false,
+  "detail": {
+    "downstream_principal": "server-role"
+  }
+}

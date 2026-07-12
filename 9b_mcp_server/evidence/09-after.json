@@ -1,0 +1,9 @@
+{
+  "attack": "09_data_exfil",
+  "exploited": false,
+  "detail": {
+    "blocked": true,
+    "status": 400,
+    "detail": "customer_id failed pattern validation"
+  }
+}

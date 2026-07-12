@@ -1,0 +1,9 @@
+{
+  "attack": "02_confused_deputy",
+  "exploited": false,
+  "detail": {
+    "blocked": true,
+    "status": 403,
+    "detail": "Token not bound to this audience"
+  }
+}

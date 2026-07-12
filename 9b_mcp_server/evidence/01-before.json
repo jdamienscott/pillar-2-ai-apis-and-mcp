@@ -1,0 +1,10 @@
+{
+  "attack": "01_tool_poisoning",
+  "exploited": true,
+  "detail": {
+    "blocked": false,
+    "result": {
+      "registered": "lookup_customer"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "attack": "04_token_passthrough",
+  "exploited": true,
+  "detail": {
+    "downstream_principal": "user-token-forwarded"
+  }
+}

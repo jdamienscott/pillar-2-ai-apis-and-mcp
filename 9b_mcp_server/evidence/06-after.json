@@ -1,0 +1,9 @@
+{
+  "attack": "06_tool_squatting",
+  "exploited": false,
+  "detail": {
+    "blocked": true,
+    "status": 403,
+    "detail": "Tool not in allowlist: lookup_customer_v2"
+  }
+}

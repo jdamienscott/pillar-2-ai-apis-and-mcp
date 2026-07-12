@@ -1,0 +1,10 @@
+{
+  "attack": "08_identity_confusion",
+  "exploited": false,
+  "detail": {
+    "blocked": false,
+    "result": {
+      "error": "not found"
+    }
+  }
+}

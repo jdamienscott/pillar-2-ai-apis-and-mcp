@@ -1,0 +1,26 @@
+{
+  "before": {
+    "01_tool_poisoning": true,
+    "02_confused_deputy": true,
+    "03_classic_injection": true,
+    "04_token_passthrough": true,
+    "05_rug_pull": true,
+    "06_tool_squatting": true,
+    "07_cost_bomb": true,
+    "08_identity_confusion": true,
+    "09_data_exfil": true
+  },
+  "after": {
+    "01_tool_poisoning": false,
+    "02_confused_deputy": false,
+    "03_classic_injection": false,
+    "04_token_passthrough": false,
+    "05_rug_pull": false,
+    "06_tool_squatting": false,
+    "07_cost_bomb": false,
+    "08_identity_confusion": false,
+    "09_data_exfil": false
+  },
+  "before_count": 9,
+  "after_count": 0
+}

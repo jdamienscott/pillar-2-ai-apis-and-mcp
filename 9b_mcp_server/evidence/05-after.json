@@ -1,0 +1,9 @@
+{
+  "attack": "05_rug_pull",
+  "exploited": false,
+  "detail": {
+    "blocked": true,
+    "status": 409,
+    "detail": "Pinned tool definition changed (rug pull rejected)"
+  }
+}

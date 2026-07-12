@@ -1,0 +1,18 @@
+{
+  "attack": "02_confused_deputy",
+  "exploited": true,
+  "detail": {
+    "blocked": false,
+    "result": {
+      "rows": [
+        [
+          "cust_aaaaaaaaaaaaaaaa",
+          "Acme Corp",
+          "enterprise",
+          "user-a"
+        ]
+      ],
+      "query": "SELECT * FROM customers WHERE id = 'cust_aaaaaaaaaaaaaaaa'"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "what_still_works": [
+    {
+      "case": "owner reads own customer by valid ID",
+      "expected": "success",
+      "result": {
+        "customer": [
+          "cust_aaaaaaaaaaaaaaaa",
+          "Acme Corp",
+          "enterprise"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "case": "owner reads second owned customer",
+      "expected": "success",
+      "result": {
+        "customer": [
+          "cust_cccccccccccccccc",
+          "Gamma Inc",
+          "free"
+        ]
+      },
+      "passed": true
+    }
+  ],
+  "all_passed": true
+}

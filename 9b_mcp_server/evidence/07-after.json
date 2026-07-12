@@ -1,0 +1,8 @@
+{
+  "attack": "07_cost_bomb",
+  "exploited": false,
+  "detail": {
+    "blocked_at_call": 61,
+    "loop_limit": 200
+  }
+}

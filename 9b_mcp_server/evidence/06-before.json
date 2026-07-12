@@ -1,0 +1,10 @@
+{
+  "attack": "06_tool_squatting",
+  "exploited": true,
+  "detail": {
+    "blocked": false,
+    "result": {
+      "registered": "lookup_customer_v2"
+    }
+  }
+}

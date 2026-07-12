@@ -1,0 +1,9 @@
+{
+  "attack": "01_tool_poisoning",
+  "exploited": false,
+  "detail": {
+    "blocked": true,
+    "status": 403,
+    "detail": "Tool description failed integrity check"
+  }
+}
